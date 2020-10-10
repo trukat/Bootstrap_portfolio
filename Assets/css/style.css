@@ -1,12 +1,32 @@
-nav {
 
+
+nav {
+   height: 10vh;
+   position: relative; 
+}
+
+.nav-items {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0%, -50%);
+}
+
+.nav-items li {
+    display: inline;
+}
+
+.nav-items li:not(:last-child) {
+    margin-right: 20px;
 }
 
 main {
-
+    height: 80vh;
 }
 
 footer {
-    
-
-}
+    padding: 30px;
+    background-color: #7f8c8d;
+    position: relative;
+    text-align: center;
+  }
