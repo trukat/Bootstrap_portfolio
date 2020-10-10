@@ -5,34 +5,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Bootstrap Portfolio</title>
+
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+      crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/reset.css">
     <link rel="stylesheet" href="Assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <title>Bootstrap Portfolio</title>
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-light" style="background-color: #ecf0f1;"> 
-          <ul class="nav-items">
-              <li>
-                  <a href="/index.html">About</a>
-              </li>
-              <li>
-                  <a href="./portfolio.html">Portfolio</a>
-              </li>
-              <li>
-                  <a href="./contact.html">Contact</a>
-              </li>
-          </ul>
-      </nav>
-    </header>
-      <main></main>
-    
+    <nav class="navbar navbar-light" style="background-color: #ecf0f1;">
+      <div class="my-name">
+        <a class="navbar-brand" href="#">Kathy Trujillo</a>
+      </div>      
+        <ul class="nav-items">
+          <li class="nav-item">
+            <a class= "Contact" href="./contact.html">Contact</a>
+          </li>            
+          <li class="nav-item">
+            <a class="Portfolio" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+          <a class="About" href="./index.html">About</a>
+          </li>
+        </ul> 
+      </div>           
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h1 class="page header">About Me</h1>
+          <img class="img-responsive" src="http://placehold.it/300x300" alt="Profile Image">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut metus pretium, tincidunt orci sit amet, placerat mi. Fusce posuere odio quis dui vulputate, a ornare elit consequat. Morbi porta leo at dolor condimentum dignissim. Sed tellus lectus, sollicitudin sit amet risus sit amet, consectetur auctor diam. Maecenas mollis mi ex, ut porttitor urna egestas eget. Fusce ac pharetra enim. Nulla tellus mauris, ornare at felis et, posuere sagittis sapien. Ut auctor tortor et mauris ultrices, a tincidunt velit pharetra. Etiam blandit pharetra sem, et aliquam libero aliquam at. Curabitur ut augue odio. Proin sodales libero et enim dapibus fringilla. Aenean non ante scelerisque, efficitur justo eleifend, efficitur massa. Proin cursus tristique ligula, vel fringilla ipsum posuere et. Mauris massa nulla, elementum vitae rutrum eget, aliquet nec sapien.</p>
+        </div>
+      </div>
+    </div>
+
+    <br>
     <footer>
       <small>&copy; Copyright 2020, Example Corporation</small>
     </footer>
-    
+
+    <!-- Javscript starts here -->
+    <script 
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+      crossorigin="anonymous">
+    </script>
+    <script 
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+      crossorigin="anonymous">
+    </script>
+    <script 
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+    crossorigin="anonymous">
+  </script>
   </body>
 </html>

@@ -1,4 +1,15 @@
+  /* .bg {
+    background-image: url("https://i.redd.it/qwd83nc4xxf41.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
 
+.my-name {
+    background-color: #007bff;
+    width: 130px;
+}
 
 nav {
    height: 10vh;
@@ -22,6 +33,16 @@ nav {
 
 main {
     height: 80vh;
+}
+
+
+.left {
+    width: 50%;
+    height: 80vh;
+}
+
+.center {
+    position: absolute;
 }
 
 footer {
