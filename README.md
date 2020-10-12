@@ -2,9 +2,9 @@
 
 ## Overview
 
-For this homework assignment, I've added media queries to my (Basic Portfolio) [https://github.com/trukat/Bootstrap_portfolio].
+For this homework assignment, I've added media queries to my (Basic Portfolio)[https://github.com/trukat/Bootstrap_portfolio].
 
-(Click here) [https://trukat.github.io/Bootstrap_portfolio/] to launch in GitHub Pages.
+(Click here)[https://trukat.github.io/Bootstrap_portfolio/] to launch in GitHub Pages.
 
 ## Built with
 
