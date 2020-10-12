@@ -5,51 +5,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Bootstrap Portfolio</title>
-
     <link 
       rel="stylesheet" 
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
       crossorigin="anonymous">
-    <link rel="stylesheet" href="Assets/css/reset.css">
     <link rel="stylesheet" href="Assets/css/style.css">
+
+    <title>Bootstrap Portfolio</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-light" style="background-color: #ecf0f1;">
-      <div class="my-name">
-        <a class="navbar-brand" href="#">Kathy Trujillo</a>
-      </div>
-
-        <ul class="nav-items">
-          <li>
-            <a class= "Contact" href="./contact.html">Contact</a>
-          </li>            
-          <li>
-            <a class="Portfolio" href="./portfolio.html">Portfolio</a>
+    <!-- Nav starts here -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">Kathy Trujillo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-light"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
           </li>
-          <li>
-          <a class="About" href="./index.html">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
           </li>
-        </ul> 
-      </div>           
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </nav>
-    <section>
-      <div class="container-fluid">
-        <!-- <div class="row"> -->
+
+    <main>
+      <!-- About Me card -->
+      <div class="jumbotron" style="background-color: #ffffff">
+        <div class="container-fluid">
           <div class="col-sm-8">
             <div class="card">
               <div class="card-body">
-              <h1 class="card header">About Me</h1>
-                <img class="img-responsive" src="http://placehold.it/300x300" alt="Profile Image">
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Cursus metus aliquam eleifend mi in nulla. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Tincidunt eget nullam non nisi est sit. In nisl nisi scelerisque eu ultrices. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Sagittis id consectetur purus ut faucibus. Orci eu lobortis elementum nibh. Vitae congue mauris rhoncus aenean. Ornare massa eget egestas purus viverra. Risus sed vulputate odio ut enim blandit. Gravida cum sociis natoque penatibus et.
-                  <div class="col-sm-4">
-                  </div>
+                <h1 class="card-title">About Me</h1>
+                <!-- Text wraps around image -->
+                  <img class="img-fluid" src="http://placehold.it/300x300" alt="Placeholder Image">
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Cursus metus aliquam eleifend mi in nulla. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Vel orci porta non pulvinar neque laoreet suspendisse interdum. Tincidunt eget nullam non nisi est sit. In nisl nisi scelerisque eu ultrices. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Sagittis id consectetur purus ut faucibus. Orci eu lobortis elementum nibh. Vitae congue mauris rhoncus aenean. Ornare massa eget egestas purus viverra. Risus sed vulputate odio ut enim blandit. Gravida cum sociis natoque penatibus et.
+                    </p>
+                    </br>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae est sed ante accumsan dictum in et mauris. Nulla dignissim velit a ultrices malesuada. Integer at felis non augue vestibulum euismod ac nec purus. Maecenas a tempor risus. Vivamus nulla urna, ultricies id mauris vitae, iaculis porttitor purus. Aliquam efficitur posuere quam vitae malesuada. Nulla nec risus sit amet ante mattis varius. Etiam auctor elit nec sem blandit venenatis. Nullam blandit odio nisi, quis euismod erat semper ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et mauris sed enim placerat cursus vitae et orci.
+                    </p>
               </div>
             </div>
           </div>
-    </section>
+        </div>
+      </div>
+          <div class="col-sm-4">
+          </div>
+    </main>
     
     <footer class="footer">
       <div class="container">

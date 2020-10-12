@@ -12,46 +12,70 @@ html, body {
     margin: 0;
 }
 
-.my-name {
-    background-color: #007bff;
-    width: 130px;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* main,
-footer,
-nav {
-    display: block;
-} */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    background-color: #74b9ff;
+    padding: 10px;
+    border-radius: 25px;
+}
 
 .card {
     width: auto;
 }
 
-nav {
-   height: 10vh;
-   position: relative; 
+.card-title {
+    color: #74b9ff;
 }
 
-.nav-items {
-    position: relative;
-    top: 50%;
-    right: 20px;
-    transform: translate(0%, -50%);
-}
-
-.nav-items a {
-    display: inline;
-}
-
-.nav-items a:not(:last-child) {
-    margin-right: 20px;
-}
-
-
-.img-responsive {
+.img-fluid {
     float: left;
+    max-width: 100%;
+    height: auto;
 }
 
+.bottom {
+    margin-bottom: 15px;
+}
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.btn-github {
+    color: #fff;
+    background-color: #444;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.btn-linkedin {
+    color: #fff;
+    background-color: #007bb6;
+    border-color: rgba(0,0,0,0.2);
+}
+
+input[type=submit] {
+    background-color: #74b9ff;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px; 
+    resize: vertical;
+  }
 
 footer {
     position: fixed;

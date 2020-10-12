@@ -5,34 +5,95 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="Assets/css/reset.css">
+    <link 
+      rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+      crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bootstrap Portfolio</title>
   </head>
 
   <body>
-  
-      <nav class="navbar navbar-light" style="background-color: #ecf0f1;"> 
-        <ul class="nav-items">
-            <li>
-                <a href="./contact.html">Contact</a>
-            </li>
-            <li>
-                <a href="./portfolio.html">Portfolio</a>
-            </li>
-            <li>
-                <a href="./index.html">About</a>
-            </li>
+    <!-- Nav starts here -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">Kathy Trujillo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-light"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">Contact<span class="sr-only">(current)</span></a>
+          </li>
         </ul>
+      </nav>
     </nav>
 
-      <main></main>
-    
-    <footer>
-      <small>&copy; Copyright 2020, Example Corporation</small>
-    </footer>
-    
+    <section>
+      <!-- Contact Me box -->
+      <div class="jumbotron" style="background-color: #ffffff">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                <h1 class="card-title">Contact</h1>
+                <!-- Social Media Buttons with links to pages -->
+                  <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/kathyjtrujillo/" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a>
+                  <a class="btn btn-social-icon btn-github" target="_blank" href="https://github.com/trukat" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-github']);"><span class="fa fa-github"></span></a>
+                  <a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/in/kathy-trujillo-498061158/" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-linkedin']);"><span class="fa fa-linkedin"></span></a>
+                <!-- Contact Form -->
+                  <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" id="FormControlInputName" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="FormControlInputEmail" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="Message">Message</label>
+                    <textarea class="form-control" id="FormControlInputMessage" rows="5"></textarea>
+                    <input type="submit" value="Submit">
+                  </div>
+                </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+          <span class="text-muted">&copy; Copyright 2020, Example Corporation</span>
+      </div>
+  </footer>
+
+    <!-- Javscript starts here -->
+    <script 
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+      crossorigin="anonymous">
+    </script>
+    <script 
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+      crossorigin="anonymous">
+    </script>
+    <script 
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+    crossorigin="anonymous">
+  </script>
   </body>
 </html>
